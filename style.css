@@ -167,6 +167,44 @@
     width: 100%;
     height: 2000px;
     position: absolute;
-    top: 950px;
+    top: 95%;
     z-index: -1;
+}
+
+.grid-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1615px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+    justify-items: center;
+}
+
+.grid-item {
+    width: 250px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.colecoesTitulo{
+    color: #AC0420;
+    font-size: 44px;
+    position: absolute;
+    top: 155%;
+    left: 24%;
 }
