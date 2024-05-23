@@ -74,7 +74,7 @@
     left: 20%;
 }
 
-.fraseInicial a {
+.botaoCatalogo {
     font-size: 18px;
     text-decoration: none;
     color: #ffffff;
@@ -178,7 +178,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 1615px;
+    top: 149%;
 }
 
 .grid-container {
@@ -201,10 +201,61 @@
     object-fit: cover;
 }
 
-.colecoesTitulo{
+.colecoesTitulo {
     color: #AC0420;
     font-size: 44px;
     position: absolute;
-    top: 155%;
+    top: 150%;
     left: 24%;
+}
+
+.botaoCatalogo2{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 30%;
+    padding: 10px;
+    background-color: #ac0420b0;
+    background-size: 20px;
+    position: absolute;
+    top: 2400px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -5%);
+}
+
+.sectionSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 70px;
+    background-color: #E6D8C7;
+    position: absolute;
+    top: 2500px;
+}
+
+.sectionSobre img {
+    display: flex;
+    width: 20%;
+    position: relative;
+    left: 20%;
+    margin-top: 40px;
+}
+
+.sectionSobre h1 {
+    color: #AC0420;
+    font-size: 44px;
+    position: absolute;
+    left: 24%;
+    margin-bottom: 20px;
+}
+
+.sectionSobre p {
+    color: #AC0420;
+    font-size: 20px;
+    width: 56%;
+    margin-top: 75px;
+    margin-bottom: 20px;
 }
